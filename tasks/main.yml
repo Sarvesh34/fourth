@@ -1,0 +1,10 @@
+---
+# tasks file for rt
+- name: Execute Command Cricket
+  command: echo "Cricket"
+- name: Execute script
+  script: first.sh
+- name: Install apache2
+  apt:
+    name: apache2
+    state: present
